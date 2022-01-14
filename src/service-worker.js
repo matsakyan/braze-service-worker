@@ -70,4 +70,5 @@ self.addEventListener('message', (event) => {
 });
 
 // Any other custom service worker logic can go here.
+// Testing service worker behavior by adding and removing braze service worker
 self.importScripts('https://js.appboycdn.com/web-sdk/3.4/service-worker.js');
